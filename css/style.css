@@ -1,0 +1,35 @@
+table {
+  font-family: arial, sans-serif;
+  font-size: xx-large;
+  border-collapse: collapse;
+  width: 50%;
+  margin:auto;
+  margin-top:5%;
+  margin-bottom: 50%;
+}
+th{
+  padding-left: 50%;
+  border:1px solid red;
+  
+}
+td, tr {
+  border: 1px solid #dddddd;
+  text-align: middle;
+  padding: 40px;
+  width:max-content;
+}
+
+;tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.but1{
+  font-size: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  text-align: middle;
+  width: auto;
+  padding: 200px;
+  margin: 50px;
+  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW190Wv?ver=d8db);
+}
