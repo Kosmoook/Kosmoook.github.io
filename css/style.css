@@ -1,5 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  font-size:large;
+  color:rgba(87, 252, 208, 1);
+  }
+p {
+  font-style: italic;
+  background-color: black;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  padding: .5em;
+  color:#57fcd0;
+  font-size: xx-large;
+  text-decoration: none;
+}
+.nav a:hover {
+background-color:rgba(255,255,255,.8);
+color:rgba(1, 39, 29, 1);
+}
+.main-nav {
+  text-align: center;
+  border-bottom: 1px solid rgba(87, 252, 208, 0.6);
+}
+.main-nav li {
+  padding: 1% 5%;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, .2);
+  background-image: url("/Images/Header.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.title {
+  text-align: center;
+
+}
+
+
 table {
-  font-family: arial, sans-serif;
   font-size: xx-large;
   border-collapse: collapse;
   width: 50%;
@@ -25,8 +83,6 @@ td, tr {
 
 .but1{
   font-size: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style: normal;
   text-align: middle;
   width: auto;
   padding: 200px;
