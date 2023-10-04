@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Italianno&family=Lora&family=Yellowtail&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,16 +6,17 @@
   font-size:large;
   color:rgba(87, 252, 208, 1);
   }
-p {
-  font-style: italic;
-  background-color: black;
-}
 
 html,body{
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color:rgba(9, 13, 12, 0.95);
+  background-image: url("/Images/Header2.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
 .nav ul {
   margin: 0;
   padding: 0px;
@@ -34,28 +35,76 @@ html,body{
 .nav a:hover {
 background-color:rgba(255,255,255,.8);
 color:rgba(1, 39, 29, 1);
+text-shadow: -2px -2px rgba(0, 233, 175, 0.05),-2px 2px rgba(0, 233, 175, 0.05),2px 2px rgba(0, 233, 175, 0.05),2px -2px rgba(0, 233, 175, 0.05);
 }
 .main-nav {
   text-align: center;
-  border-bottom: 1px solid rgba(87, 252, 208, 0.6);
+  text-shadow: -2px -2px rgba(0, 16, 12, 0.5),-2px 2px rgba(0, 16, 12, 0.5),2px 2px rgba(0, 16, 12, 0.5),2px -2px rgba(0, 16, 12, 0.5);
 }
 .main-nav li {
-  padding: 1% 5%;
+  padding: 1% 5% 0;
 }
 
 .main-header {
   background-color: rgba(0, 0, 0, .2);
-  background-image: url("/Images/Header.jpg");
+  background-image: url("/Images/Header3.jpg");
   background-blend-mode: multiply;
   background-size: cover;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .title {
   text-align: center;
-
+  font-family: 'Yellowtail', cursive;
+  font-weight: lighter;
+  font-size: 4em;
+  margin:0 0 0;
+  text-shadow: -4px -4px rgba(0, 16, 12, 0.5),-4px 4px rgba(0, 16, 12, 0.5),4px 4px rgba(0, 16, 12, 0.5),4px -4px rgba(0, 16, 12, 0.5);
+}
+.title-bigus{
+  font-size: 8em;
 }
 
+.content{
+  margin: 1em;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5em
+}
+.section-header{
+  font-weight: lighter;
+  font-size: 2.5em;
+  text-align: center;
+}
+.aboutimage{
+  float: left;
+  height: 400px;
+  width: 400px;
+  Margin: 15px;
+  border-radius: 50%;
+}
+
+.main-footer{
+background-color:rgba(0, 16, 12, 0.88);
+padding: .25em 0;
+}
+
+.main-footer-container{
+  display:flex;
+  align-items: center;
+}
+
+.main-footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+}
 
 table {
   font-size: xx-large;
