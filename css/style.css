@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Italianno&family=Lora&family=Yellowtail&display=swap');
 
 :root {
-  --body:rgba(45,45,45,1);
+  --body:rgb(23, 23, 23);
   --footer: rgba(64,64,64,1);
   --header: rgba(194,194,194,1);
   --block: rgba(190,190,190,1);
@@ -10,7 +10,7 @@
 * {
   box-sizing: content-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:large;
+  font-size:medium;
   color:var(--block);
   }
 
@@ -29,15 +29,10 @@ body{
 }
 
 .content{
-  margin: 1em;
-  border-color: blue;
-}
-
-.container{
-  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1.5em;
-  border-color: pink;
+  max-width: 60em;
+  padding: 4em 20em 0;
+  border-top: solid var(--header) 1px;
 }
 
 .aboutimage{
@@ -47,16 +42,10 @@ body{
   border-radius: 50%;
 }
 
-.socky-images{
-    float: bottom;
-    height: 30px;
-    width:auto; 
-}
-
 .grid-container{
   display:grid;
   border-color: white;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
 }
 

@@ -1,9 +1,3 @@
-:root {
-    --body:rgba(45,45,45,1);
-    --footer: rgba(64,64,64,1);
-    --header: rgba(194,194,194,1);
-    --block: rgba(190,190,190,1);
-  }
 
   .main-header{
     display:flex;
@@ -17,7 +11,7 @@
   .title {
     display:flex;
     align-self: center;
-    margin: 0 0 0;
+    margin: 0.5em 0 0.5em;
     padding:0 0 0;
     border-color: limegreen;
   }
@@ -25,15 +19,15 @@
   .header-nav {
     display: flex;
     justify-content: center;
-    border: solid pink 0px;
-    margin: 10px 0 0px;
+    margin: 0 0 0;
   }
   .header-nav ul {
     display:flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 0 0;
-    padding: 10px 0 10px;
+    padding: 0.5em 0 0.5em;
+    border: solid pink 0px;
     max-width: auto;
     background-color: var(--body);
     border-top-left-radius: 30px;
@@ -43,21 +37,20 @@
   .header-nav li {
     display: inline-block;
     border-right: solid var(--header) 2px;
-  
+
   }
   .header-nav li:last-child{
     border: 0px;
   }
   
   .header-nav a {
-    margin: 0 2em 0 ;
+    margin: 0 1.5em 0 ;
     padding: 0 0 0 ;
-    font-size: 20px;
-    text-decoration: none;
+    font-size: 1em;    text-decoration: none;
+    border: 0.45em solid var(--body);
   }
   
   .header-nav a:hover {
-  background-color:rgba(255,255,255,.8);
-  color:rgba(1, 39, 29, 1);
-  text-shadow: -1px -1px rgba(1, 39, 29, 0.1),-1px 1px rgba(1, 39, 29, 0.1),1px 1px rgba(1, 39, 29, 0.1),1px -1px rgba(1, 39, 29, 0.1);
+    border-bottom: 0.45em solid var(--header);
+  
   }
