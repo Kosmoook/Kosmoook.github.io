@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Italianno&family=Lora&family=Yellowtail&display=swap');
 
-
 :root {
   --body:rgba(45,45,45,1);
   --footer: rgba(64,64,64,1);
   --header: rgba(194,194,194,1);
   --block: rgba(190,190,190,1);
 }
-
 
 * {
   box-sizing: content-box;
@@ -28,64 +26,6 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
-}
-.main-header{
-  display:flex;
-  flex-direction: column;
-  border-color: yellow;
-  color:rgb(87, 252, 208);
-  background-color:rgba(192,192,192,1);
-  margin-bottom: 10px;
-}
-.title {
-  display:flex;
-  align-self: center;
-  margin:15px 0 15px;
-  padding:0 0 0;
-  border-color: limegreen;
-}
-.nav ul {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 0 0;
-  padding: 10px 0 10px;
-  max-width: auto;
-  background-color: var(--body);
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-}
-
-.nav li {
-  display: inline-block;
-  border-right: solid var(--header) 2px;
-
-}
-.nav li:last-child{
-  border: 0px;
-}
-.nav a {
-  margin: 0 2em 0 ;
-  padding: 0 0 0 ;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.nav a:hover {
-background-color:rgba(255,255,255,.8);
-color:rgba(1, 39, 29, 1);
-text-shadow: -1px -1px rgba(1, 39, 29, 0.1),-1px 1px rgba(1, 39, 29, 0.1),1px 1px rgba(1, 39, 29, 0.1),1px -1px rgba(1, 39, 29, 0.1);
-}
-
-.logos{
-  fill:white
-}
-
-.main-nav {
-  display: flex;
-  justify-content: center;
-  border-color: pink;
 }
 
 .content{
@@ -99,12 +39,7 @@ text-shadow: -1px -1px rgba(1, 39, 29, 0.1),-1px 1px rgba(1, 39, 29, 0.1),1px 1p
   padding: 0 1.5em;
   border-color: pink;
 }
-.section-header{
-  font-weight: lighter;
-  font-size: 2.5em;
-  text-align: center;
 
-}
 .aboutimage{
   height: 400px;
   width:400px;
@@ -117,27 +52,6 @@ text-shadow: -1px -1px rgba(1, 39, 29, 0.1),-1px 1px rgba(1, 39, 29, 0.1),1px 1p
     height: 30px;
     width:auto; 
 }
-
-
-.main-footer{
-background-color:var(--footer);
-padding: .25em 0;
-display:flex;
-margin-top:auto;
-border-color: blue;
-}
-
-.main-footer-container{
-  display:flex;
-  align-items: center;
-  border-color: grey;
-}
-
-.main-footer-container ul{
-  flex-grow: 1;
-  text-align:center;
-}
-
 
 .grid-container{
   display:grid;
@@ -174,4 +88,8 @@ border-color: blue;
   padding:0 0 0;
   border-radius: 50%;
   border-color: grey;
+}
+.logos{
+  width:30px;
+  height: auto;
 }
