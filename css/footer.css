@@ -3,6 +3,7 @@
     background-color: var(--body);
     flex-direction: column;
     margin-top:auto;
+    /* border-top: solid 10px pink; */
   }
  
 .footer-nav {
