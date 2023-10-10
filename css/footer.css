@@ -1,6 +1,6 @@
 .main-footer{
     display:flex;
-    background-color: var(--header);
+    background-color: var(--body);
     flex-direction: column;
     margin-top:auto;
   }
@@ -22,18 +22,12 @@
   
 .footer-nav li {
     display: inline-block;
-    border: 10px solid var(--header);
+    border: 10px solid var(--body);
 
   }
 
 .footer-nav li:hover{
-    border-bottom: 10px solid var(--footer);
+    border-bottom: 10px solid var(--header);
     
 }
-  
-.footer-nav a {
-    margin: 0 0.5em 0 ;
-    padding: 0 0 0 ;
-    text-decoration: none;
-  }
   

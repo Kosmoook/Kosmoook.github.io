@@ -6,6 +6,7 @@
     background-color:var(--header);
     margin: 0 0 0;
     padding: 0 0 0;
+    border-bottom: solid var(--header) 1px;
   }
   
   .title {
@@ -13,7 +14,6 @@
     align-self: center;
     margin: 0.5em 0 0.5em;
     padding:0 0 0;
-    border-color: limegreen;
   }
   
   .header-nav {
@@ -27,11 +27,11 @@
     justify-content: center;
     margin: 0 0 0;
     padding: 0.5em 0 0.5em;
-    border: solid pink 0px;
+    /* border: solid pink 10px; */
     max-width: auto;
     background-color: var(--body);
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
   }
   
   .header-nav li {
